@@ -1,0 +1,42 @@
+body { background: #f0f0f0;
+
+}
+
+table {
+	width: 500px;
+	}
+
+h1 {text-align: center;}
+
+div.main {background: white;
+		border-radius: 20px;
+		padding: 3px 20px;
+		width: 80%;
+		margin: 10px auto 10px auto;
+		font-size: 1.2em;
+
+				}
+#form1:hover {
+	background: #CEE2F5;
+}
+
+#form1 {
+	/*position: fixed*/;
+	font-size: 22px;
+	top: 0px;
+	left: 12%;
+	z-index: 3;
+}
+
+#owned {
+	font-size: 1.5em;
+}
+
+}
+#yahoo {
+	position: normal;
+	vertical-align: center;
+}
+
+th {
+}
