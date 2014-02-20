@@ -116,6 +116,7 @@ var portfolio = { //Main Portfolio Object
 		
 		var node = document.getElementById('list'); //Gets table body from main page.
 		$('.listing').remove();
+		$('BR').remove();
 		var p = localStorage;
 		for (var key in p) {
 			if (p.hasOwnProperty(key)) {
@@ -150,7 +151,6 @@ var portfolio = { //Main Portfolio Object
 			node.appendChild(row);
 
 		//List total value
-		// node.appendChild(br);
 			var row = document.createElement('TR');
 			var td = document.createElement('TD');
 			var text = document.createTextNode('Total Value');
