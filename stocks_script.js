@@ -167,7 +167,7 @@ var portfolio = { //Main Portfolio Object
 
 /////////// Calculates total of stock price and quantity and displays on page. //////////
 	total: function() { 
-		var quantity = this.sellAll(); //Makes 'sell all' button work.
+		// var quantity = this.sellAll(); //Makes 'sell all' button work.
 
 		var stock = document.getElementById("stock");
 		stock.value = stock.value.toUpperCase();
@@ -181,21 +181,21 @@ var portfolio = { //Main Portfolio Object
 			total.value = x;
 		return;
 	},
-	sellAll: function() {
-		var sellAll = document.getElementById('sellAll') // Selects sell radio button when 'Sell all' is checked.
-		if (sellAll.checked) {
-			document.getElementById('sell').checked = true;
-			document.getElementById('buy').disabled = true;
-			document.getElementById("quantity").disabled = true;
+	// sellAll: function() {
+	// 	var sellAll = document.getElementById('sellAll') // Selects sell radio button when 'Sell all' is checked.
+	// 	if (sellAll.checked) {
+	// 		document.getElementById('sell').checked = true;
+	// 		document.getElementById('buy').disabled = true;
+	// 		document.getElementById("quantity").disabled = true;
 			
 			
-		} else {
-			document.getElementById('buy').disabled = false;
-			document.getElementById("quantity").disabled = false;
-			var quantity = document.getElementById("quantity")
-			return quantity;
-		};
-	},
+	// 	} else {
+	// 		document.getElementById('buy').disabled = false;
+	// 		document.getElementById("quantity").disabled = false;
+	// 		var quantity = document.getElementById("quantity")
+	// 		return quantity;
+	// 	};
+	// },
 
 /////// Contains all the startup code. /////////
 	setup: function() {
