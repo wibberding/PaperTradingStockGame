@@ -9,4 +9,6 @@ Then, store data on the server side so players can compete with each other and h
 
 I'm learning and this is my first project, so feedback is appreciated.
 
+A working copy can be found at MoneyGame.us
+
 
